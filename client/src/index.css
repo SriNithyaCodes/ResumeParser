@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-light: #6366f1;
+  --color-primary-dark: #4f46e5;
+  --color-accent-purple: #a855f7;
+  --color-accent-cyan: #06b6d4;
+
+  --background-glass: rgba(15, 15, 40, 0.6);
+  --border-glass: rgba(99, 102, 241, 0.15);
+}
+
+.dark {
+  --background-glass: rgba(15, 15, 40, 0.7);
+  --border-glass: rgba(99, 102, 241, 0.2);
+}
+
+@utility glass {
+  backdrop-filter: blur(16px);
+  background-color: var(--background-glass);
+  border: 1px solid var(--border-glass);
+}
+
+@layer base {
+  *, *::before, *::after {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    background-color: #07091a !important;
+    color: #e0e7ff;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply text-slate-100;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply glass rounded-2xl shadow-xl transition-all duration-300;
+  }
+  
+  .glass-card:hover {
+    @apply shadow-2xl scale-[1.01];
+  }
+
+  .btn-primary {
+    @apply px-6 py-2 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium 
+           hover:shadow-lg transition-all duration-300 active:scale-95;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+@keyframes scan {
+  0% { top: 0%; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #6366f1, transparent);
+  box-shadow: 0 0 15px #6366f1;
+  animation: scan 2s linear infinite;
+  z-index: 20;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 4s ease-in-out infinite;
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1775934587951",
+    "fileName": "resume_nithya.pdf",
+    "date": "2026-04-11T19:09:47.951Z",
+    "name": "Srinithya Reddy Kasam",
+    "email": "srinithyareddykasam@gmail.com",
+    "phone": "+1 234 567 890",
+    "location": "New York, NY",
+    "summary": "Results-driven Software Engineer with 5+ years of experience in building scalable web applications.",
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "university": "Tech University",
+        "year": "2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "InnoTech",
+        "role": "Senior Developer",
+        "duration": "2018 - Present",
+        "description": "Led development of various AI-powered features."
+      }
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "AI Image Generator",
+        "description": "A tool that generates images using Stable Diffusion."
+      }
+    ],
+    "matchingScore": 85,
+    "suggestions": [
+      "Add more quantitative metrics to experience.",
+      "Highlight role-specific keywords.",
+      "Expand on the 'AI Image Generator' project."
+    ]
+  },
+  {
+    "id": "1775935783646",
+    "fileName": "resume_nithya.pdf",
+    "date": "2026-04-11T19:29:43.646Z",
+    "name": "Srinithya Reddy Kasam",
+    "email": "srinithyareddykasam@gmail.com",
+    "phone": "+1 234 567 890",
+    "location": "New York, NY",
+    "summary": "Results-driven Software Engineer with 5+ years of experience in building scalable web applications.",
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "university": "Tech University",
+        "year": "2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "InnoTech",
+        "role": "Senior Developer",
+        "duration": "2018 - Present",
+        "description": "Led development of various AI-powered features."
+      }
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "AI Image Generator",
+        "description": "A tool that generates images using Stable Diffusion."
+      }
+    ],
+    "matchingScore": 85,
+    "suggestions": [
+      "Add more quantitative metrics to experience.",
+      "Highlight role-specific keywords.",
+      "Expand on the 'AI Image Generator' project."
+    ]
+  },
+  {
+    "id": "1775935890476",
+    "fileName": "resume_nithya.pdf",
+    "date": "2026-04-11T19:31:30.476Z",
+    "name": "Srinithya Reddy Kasam",
+    "email": "srinithyareddykasam@gmail.com",
+    "phone": "+1 234 567 890",
+    "location": "New York, NY",
+    "summary": "Results-driven Software Engineer with 5+ years of experience in building scalable web applications.",
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "university": "Tech University",
+        "year": "2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "InnoTech",
+        "role": "Senior Developer",
+        "duration": "2018 - Present",
+        "description": "Led development of various AI-powered features."
+      }
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "AI Image Generator",
+        "description": "A tool that generates images using Stable Diffusion."
+      }
+    ],
+    "matchingScore": 85,
+    "suggestions": [
+      "Add more quantitative metrics to experience.",
+      "Highlight role-specific keywords.",
+      "Expand on the 'AI Image Generator' project."
+    ]
+  },
+  {
+    "id": "1775937061641",
+    "fileName": "RESUME - VISHNU VARDHAN 1 UTD.pdf",
+    "date": "2026-04-11T19:51:01.642Z",
+    "name": "Polla Vishnu Vardhan",
+    "email": "vishnumaxpolla32@gmail.com",
+    "phone": "+1 234 567 890",
+    "location": "New York, NY",
+    "summary": "Results-driven Software Engineer with 5+ years of experience in building scalable web applications.",
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "university": "Tech University",
+        "year": "2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "InnoTech",
+        "role": "Senior Developer",
+        "duration": "2018 - Present",
+        "description": "Led development of various AI-powered features."
+      }
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "AI Image Generator",
+        "description": "A tool that generates images using Stable Diffusion."
+      }
+    ],
+    "matchingScore": 85,
+    "suggestions": [
+      "Add more quantitative metrics to experience.",
+      "Highlight role-specific keywords.",
+      "Expand on the 'AI Image Generator' project."
+    ]
+  }
+]
